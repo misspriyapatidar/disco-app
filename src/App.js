@@ -7,6 +7,7 @@ function App() {
   const changeColor = () => {
     if (!nInterval) {
       nInterval = setInterval(() => {
+        // hex color code
         let color = Math.floor(Math.random() * 16777215).toString(16);
         document.body.style.backgroundColor = "#" + color;
       }, 2000);
@@ -40,7 +41,8 @@ function App() {
           onMouseOut={stopColor}
           style={{
             margin: 10,
-            backgroundColor: "white",
+            backgroundColor: "black",
+            color: "#fff",
             border: "none",
             padding: 10,
             borderRadius: 5,
