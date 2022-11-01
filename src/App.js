@@ -52,6 +52,7 @@ function App() {
           Disco Music
         </button>
       </div>
+      <p>You may need to allow audio on the site on your browser</p>
       <div>
         <audio loop id="audio">
           <source
