@@ -56,7 +56,7 @@ function App() {
       <div>
         <audio loop id="audio">
           <source
-            src="http://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg"
+            src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
             type="audio/ogg"
           />
         </audio>
