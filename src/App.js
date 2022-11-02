@@ -5,6 +5,7 @@ function App() {
 
   // changing the background color of the body every 2 second
   const changeColor = () => {
+    navigator.mediaDevices.getUserMedia({ audio: true });
     if (!nInterval) {
       nInterval = setInterval(() => {
         // hex color code
